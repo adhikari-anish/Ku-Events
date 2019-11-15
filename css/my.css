@@ -1,0 +1,61 @@
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    padding-top: 100px;
+}
+footer {
+    padding: 30px 0;
+}
+
+/*
+ * Custom styles
+ */
+.navbar-brand {
+    font-size: 24px;
+
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #030344;
+    border-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 10px;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+.clearfix{
+background: rgba(0,11,135,1);
+background: -moz-linear-gradient(left, rgba(0,11,135,1) 0%, rgba(237,243,247,1) 44%, rgba(237,243,247,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,11,135,1)), color-stop(44%, rgba(237,243,247,1)), color-stop(100%, rgba(237,243,247,1)));
+background: -webkit-linear-gradient(left, rgba(0,11,135,1) 0%, rgba(237,243,247,1) 44%, rgba(237,243,247,1) 100%);
+background: -o-linear-gradient(left, rgba(0,11,135,1) 0%, rgba(237,243,247,1) 44%, rgba(237,243,247,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,11,135,1) 0%, rgba(237,243,247,1) 44%, rgba(237,243,247,1) 100%);
+background: linear-gradient(to right, rgba(0,11,135,1) 0%, rgba(237,243,247,1) 44%, rgba(237,243,247,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000b87', endColorstr='#edf3f7', GradientType=1 );
+}
